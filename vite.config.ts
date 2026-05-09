@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/EthioSTEM-preK-Math/',
+  base: '/theSTEMLab-preK-Math/',
   
   server: {
     host: "::",
