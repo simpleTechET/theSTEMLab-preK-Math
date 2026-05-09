@@ -1,0 +1,1 @@
+const s="/theSTEMLab-preK-Math/assets/cup-DRCKdPfm.jpeg",e="/theSTEMLab-preK-Math/assets/paper-DcfKrP53.jpeg",a="/theSTEMLab-preK-Math/assets/pencil-MN7Jr6xo.jpeg",t="/theSTEMLab-preK-Math/assets/sock-BD9AKvnk.jpeg",p="/theSTEMLab-preK-Math/assets/shoe-Cm92ZHio.jpeg";export{e as a,p as b,s as c,a as p,t as s};
