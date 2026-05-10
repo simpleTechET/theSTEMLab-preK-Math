@@ -9,7 +9,7 @@ const Activities = () => {
 
   // Load completed lessons from localStorage on mount
   useEffect(() => {
-    const saved = localStorage.getItem('ethiostem-completed-lessons');
+    const saved = localStorage.getItem('theSTEMLab-completed-lessons');
     if (saved) {
       setCompletedLessons(JSON.parse(saved));
     }
