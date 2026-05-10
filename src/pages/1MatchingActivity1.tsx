@@ -14,7 +14,7 @@ const MatchingActivity1 = () => {
   const [showCompanion, setShowCompanion] = useState(false);
   const [companionContext, setCompanionContext] = useState('');
   const [companionType, setCompanionType] = useState<'encouragement' | 'correction' | 'celebration' | 'focus'>('encouragement');
-  const [studentName] = useState(localStorage.getItem('ethiostem-student-name') || 'Student');
+  const [studentName] = useState(localStorage.getItem('theSTEMLab-student-name') || 'Student');
 
   const gameItems = [
     { id: 1, image: appleImg, matchId: 1 },
@@ -40,11 +40,11 @@ const MatchingActivity1 = () => {
 
 // Add this helper function to save completion
 const markLessonComplete = (lessonId: number) => {
-  const saved = localStorage.getItem('ethiostem-completed-lessons');
+    const saved = localStorage.getItem('theSTEMLab-completed-lessons');
   const completed = saved ? JSON.parse(saved) : [];
   if (!completed.includes(lessonId)) {
     completed.push(lessonId);
-    localStorage.setItem('ethiostem-completed-lessons', JSON.stringify(completed));
+    localStorage.setItem('theSTEMLab-completed-lessons', JSON.stringify(completed));
   }
 };
   return (
