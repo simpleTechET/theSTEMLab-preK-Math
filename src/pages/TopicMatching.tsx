@@ -52,7 +52,7 @@ const TopicMatching = () => {
             >
               <ArrowLeft className="h-5 w-5" />
             </Button>
-            <img src={estemLogo} alt="ESTEM Logo" className="w-10 h-10" />
+            <img src={estemLogo} alt="theSTEMLab Logo" className="w-10 h-10" />
             <div>
               <h1 className="text-2xl font-bold text-foreground">Matching Objects</h1>
               <p className="text-sm text-muted-foreground">Topic A • 4 Activities</p>
