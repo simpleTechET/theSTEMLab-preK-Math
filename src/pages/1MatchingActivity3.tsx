@@ -57,11 +57,11 @@ const MatchingActivity3 = () => {
 
   const allMatched = matchedPairs.length === items.length;
 const markLessonComplete = (lessonId: number) => {
-    const saved = localStorage.getItem('ethiostem-completed-lessons');
+    const saved = localStorage.getItem('theSTEMLab-completed-lessons');
     const completed = saved ? JSON.parse(saved) : [];
     if (!completed.includes(lessonId)) {
       completed.push(lessonId);
-      localStorage.setItem('ethiostem-completed-lessons', JSON.stringify(completed));
+    localStorage.setItem('theSTEMLab-completed-lessons', JSON.stringify(completed));
     }
   };
 
