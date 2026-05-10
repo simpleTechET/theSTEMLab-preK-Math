@@ -33,7 +33,7 @@ const MatchingGame = ({ items, onComplete, hideCompletionUI = false }: MatchingG
   const [showCompanion, setShowCompanion] = useState(false);
   const [companionContext, setCompanionContext] = useState('');
   const [companionType, setCompanionType] = useState<'encouragement' | 'correction' | 'celebration' | 'focus'>('encouragement');
-  const [studentName] = useState(localStorage.getItem('ethiostem-student-name') || 'Student');
+  const [studentName] = useState(localStorage.getItem('theSTEMLab-student-name') || 'Student');
 
   const handleItemClick = (item: typeof shuffledItems[0]) => {
     if (matchedPairs.includes(item.id) || selectedItems.includes(item.id) || isProcessing) {
