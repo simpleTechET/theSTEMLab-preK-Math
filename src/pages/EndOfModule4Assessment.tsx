@@ -59,9 +59,9 @@ const EndOfModule4Assessment = () => {
             savedAt: new Date().toISOString()
         };
 
-        const existingAssessments = JSON.parse(localStorage.getItem('ethiostem-end-module4-assessments') || '[]');
+        const existingAssessments = JSON.parse(localStorage.getItem('theSTEMLab-end-module4-assessments') || '[]');
         existingAssessments.push(assessmentData);
-        localStorage.setItem('ethiostem-end-module4-assessments', JSON.stringify(existingAssessments));
+        localStorage.setItem('theSTEMLab-end-module4-assessments', JSON.stringify(existingAssessments));
 
         toast.success("Assessment saved successfully!");
     };
