@@ -19,11 +19,11 @@ export const PremiumProvider = ({ children }: { children: ReactNode }) => {
 
   useEffect(() => {
     // Load from localStorage
-    const premiumStatus = localStorage.getItem('ethiostem-premium') === 'true';
-    const name = localStorage.getItem('ethiostem-student-name') || 'Student';
-    const photo = localStorage.getItem('ethiostem-student-photo');
-    const video = localStorage.getItem('ethiostem-student-video');
-
+   const premiumStatus = localStorage.getItem('theSTEMLab-premium') === 'true';
+    const name = localStorage.getItem('theSTEMLab-student-name') || 'Student';
+    const photo = localStorage.getItem('theSTEMLab-student-photo');
+    const video = localStorage.getItem('theSTEMLab-student-video');
+    
     setIsPremium(premiumStatus);
     setStudentName(name);
     setStudentPhoto(photo);
@@ -32,7 +32,7 @@ export const PremiumProvider = ({ children }: { children: ReactNode }) => {
 
   const setPremiumStatus = (status: boolean) => {
     setIsPremium(status);
-    localStorage.setItem('ethiostem-premium', String(status));
+    localStorage.setItem('theSTEMLab-premium', String(status));
   };
 
   const setStudentData = (name: string, photo: string | null, video: string | null) => {
@@ -40,9 +40,9 @@ export const PremiumProvider = ({ children }: { children: ReactNode }) => {
     setStudentPhoto(photo);
     setStudentVideo(video);
     
-    localStorage.setItem('ethiostem-student-name', name);
-    if (photo) localStorage.setItem('ethiostem-student-photo', photo);
-    if (video) localStorage.setItem('ethiostem-student-video', video);
+    localStorage.setItem('theSTEMLab-student-name', name);
+    if (photo) localStorage.setItem('theSTEMLab-student-photo', photo);
+    if (video) localStorage.setItem('theSTEMLab-student-video', video);
   };
 
   return (
