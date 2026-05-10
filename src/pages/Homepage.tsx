@@ -15,12 +15,12 @@ const Homepage = () => {
             <div className="flex items-center gap-3">
               <img
                 src={logoNoText}
-                alt="Ethiopian STEM Academy"
+                alt="theSTEMLab"
                 className="w-12 h-12 object-contain"
               />
               <div>
-                <h1 className="text-xl font-bold text-foreground">EthioSTEM Learning</h1>
-                <p className="text-xs text-muted-foreground">Ethiopian STEM Academy</p>
+                <h1 className="text-xl font-bold text-foreground">theSTEMLab Learning</h1>
+                <p className="text-xs text-muted-foreground">theSTEMLab</p>
               </div>
             </div>
             <div className="flex gap-2">
@@ -43,14 +43,14 @@ const Homepage = () => {
             <div className="mb-8">
               <img
                 src={logoFull}
-                alt="Ethiopian STEM Academy"
+                alt="theSTEMLab"
                 className="w-56 h-56 mx-auto object-contain mb-4"
               />
             </div>
 
             <div className="inline-flex items-center gap-2 bg-card/80 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border-2 border-primary/20">
               <Sparkles className="w-4 h-4 text-primary" />
-              <span className="text-sm font-semibold text-primary">Welcome to EthioSTEM Learning</span>
+              <span className="text-sm font-semibold text-primary">Welcome to theSTEMLab Learning</span>
             </div>
 
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6">
@@ -300,7 +300,7 @@ const Homepage = () => {
       <section className="py-20 bg-secondary/20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-foreground mb-4">Why EthioSTEM?</h2>
+            <h2 className="text-4xl font-bold text-foreground mb-4">Why theSTEMLab?</h2>
             <p className="text-xl text-muted-foreground">Research-based learning that works</p>
           </div>
 
@@ -416,10 +416,10 @@ const Homepage = () => {
               <div className="flex items-center gap-3 mb-4">
                 <img
                   src={logoNoText}
-                  alt="Ethiopian STEM Academy"
+                alt="theSTEMLab"
                   className="w-10 h-10 object-contain"
                 />
-                <h3 className="text-xl font-bold text-foreground">EthioSTEM</h3>
+                <h3 className="text-xl font-bold text-foreground">theSTEMLab</h3>
               </div>
               <p className="text-sm">
                 Building the next generation of Ethiopian scientists, engineers, and mathematicians
@@ -445,7 +445,7 @@ const Homepage = () => {
             </div>
           </div>
           <div className="border-t border-border mt-8 pt-8 text-center text-sm">
-            <p>© 2025 EthioSTEM. All rights reserved. Built with ❤️ for Ethiopian children.</p>
+            <p>© 2025 theSTEMLab. All rights reserved. Built with ❤️ for Ethiopian children.</p>
           </div>
         </div>
       </footer>
