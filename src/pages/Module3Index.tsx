@@ -504,7 +504,7 @@ const Module3Index = () => {
             </Button>
           </Link>
           <h1 className="font-fredoka text-4xl md:text-5xl text-foreground text-shadow-playful mb-4">
-            🌟 EthioSTEM PreK Math 🌟
+            🌟 theSTEMLab PreK Math 🌟
           </h1>
           <p className="font-nunito text-xl text-foreground/80">
             Module 3: Counting to 10
