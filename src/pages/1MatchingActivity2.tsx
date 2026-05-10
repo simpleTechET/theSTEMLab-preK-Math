@@ -32,11 +32,11 @@ const MatchingActivity2 = () => {
 
   // Helper function to save completion
   const markLessonComplete = (lessonId) => { // REMOVE : number
-    const saved = localStorage.getItem('ethiostem-completed-lessons');
+    const saved = localStorage.getItem('theSTEMLab-completed-lessons');
     const completed = saved ? JSON.parse(saved) : [];
     if (!completed.includes(lessonId)) {
       completed.push(lessonId);
-      localStorage.setItem('ethiostem-completed-lessons', JSON.stringify(completed));
+    localStorage.setItem('theSTEMLab-completed-lessons', JSON.stringify(completed));
     }
   };
 
