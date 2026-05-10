@@ -37,7 +37,7 @@ const SignIn = () => {
 
   const handleDemoLogin = () => {
     setFormData({
-      email: "demo@ethiostem.org",
+      email: "demo@thestemlab.org",
       password: "demo123"
     });
   };
