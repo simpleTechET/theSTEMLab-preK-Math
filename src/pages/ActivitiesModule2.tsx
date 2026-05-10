@@ -8,7 +8,7 @@ const ActivitiesModule2 = () => {
   const [completedLessons, setCompletedLessons] = useState<number[]>([]);
 
   useEffect(() => {
-    const saved = localStorage.getItem('ethiostem-completed-lessons');
+    const saved = localStorage.getItem('theSTEMLab-completed-lessons');
     if (saved) {
       setCompletedLessons(JSON.parse(saved));
     }
