@@ -573,11 +573,11 @@ const StudentDebrief = ({ navigate }: { navigate: (path: string) => void }) => {
   const [isComplete, setIsComplete] = useState(false);
 
   const markLessonComplete = () => {
-    const saved = localStorage.getItem('ethiostem-completed-lessons');
+    const saved = localStorage.getItem('theSTEMLab-completed-lessons');
     const completed = saved ? JSON.parse(saved) : [];
     if (!completed.includes(27)) {
       completed.push(27);
-      localStorage.setItem('ethiostem-completed-lessons', JSON.stringify(completed));
+      localStorage.setItem('theSTEMLab-completed-lessons', JSON.stringify(completed));
     }
     setIsComplete(true);
   };
