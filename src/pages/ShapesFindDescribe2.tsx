@@ -124,11 +124,11 @@ const ShapesFindDescribe = () => {
   };
 
   const saveProgress = () => {
-    const saved = localStorage.getItem('ethiostem-completed-lessons');
+    const saved = localStorage.getItem('theSTEMLab-completed-lessons');
     const completed = saved ? JSON.parse(saved) : [];
     if (!completed.includes(101)) { // 101 for Module 2, Lesson 1
       completed.push(101);
-      localStorage.setItem('ethiostem-completed-lessons', JSON.stringify(completed));
+      localStorage.setItem('theSTEMLab-completed-lessons', JSON.stringify(completed));
     }
   };
 
