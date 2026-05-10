@@ -30,11 +30,11 @@ const SortingActivity6 = () => {
   const [markerGroup, setMarkerGroup] = useState<SortingItem[]>([]);
  
   const markLessonComplete = (lessonId: number) => {
-    const saved = localStorage.getItem('ethiostem-completed-lessons');
+    const saved = localStorage.getItem('theSTEMLab-completed-lessons');
     const completedLessons = saved ? JSON.parse(saved) : [];
     if (!completedLessons.includes(lessonId)) {
       completedLessons.push(lessonId);
-      localStorage.setItem('ethiostem-completed-lessons', JSON.stringify(completedLessons));
+    localStorage.setItem('theSTEMLab-completed-lessons', JSON.stringify(completed));
     }
   };
   const initialItems = useMemo(() => shuffleArray([
