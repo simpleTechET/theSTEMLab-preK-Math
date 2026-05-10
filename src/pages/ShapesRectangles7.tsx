@@ -209,11 +209,11 @@ const ShapesRectangles7 = () => {
   const squareComplete = squareStraws.every(s => s.placed) && squareClay.every(c => c.placed);
 
   const saveProgress = () => {
-    const saved = localStorage.getItem('ethiostem-completed-lessons');
+    const saved = localStorage.getItem('theSTEMLab-completed-lessons');
     const completed = saved ? JSON.parse(saved) : [];
     if (!completed.includes(107)) {
       completed.push(107);
-      localStorage.setItem('ethiostem-completed-lessons', JSON.stringify(completed));
+      localStorage.setItem('theSTEMLab-completed-lessons', JSON.stringify(completed));
     }
   };
 
