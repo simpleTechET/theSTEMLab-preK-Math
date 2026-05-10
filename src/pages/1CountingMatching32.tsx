@@ -39,11 +39,11 @@ const CountingMatching32 = () => {
   const [debriefGuess, setDebriefGuess] = useState<number | null>(null);
   
   const markLessonComplete = () => {
-    const saved = localStorage.getItem('ethiostem-completed-lessons');
+    const saved = localStorage.getItem('theSTEMLab-completed-lessons');
     const completed = saved ? JSON.parse(saved) : [];
     if (!completed.includes(32)) {
       completed.push(32);
-      localStorage.setItem('ethiostem-completed-lessons', JSON.stringify(completed));
+      localStorage.setItem('theSTEMLab-completed-lessons', JSON.stringify(completed));
     }
   };
 
