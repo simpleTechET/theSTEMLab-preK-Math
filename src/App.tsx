@@ -98,6 +98,7 @@ const WriteTwo2 = lazy(() => import("./pages/5WriteTwo2"));
 const WriteThree3 = lazy(() => import("./pages/5WriteThree3"));
 const WriteFour4 = lazy(() => import("./pages/5WriteFour4"));
 const WriteFive5 = lazy(() => import("./pages/5WriteFive5"));
+const ActOutAddition6 = lazy(() => import("./pages/5ActOutAddition6"));
 const TallOrShort1 = lazy(() => import("./pages/4TallOrShortLesson1.tsx"));
 const TallerShorter2 = lazy(() => import("./pages/4TallerShorterLesson2.tsx"));
 const LongerShorter3 = lazy(() => import("./pages/4LongerShorterLesson3.tsx"));
@@ -297,6 +298,7 @@ const App = () => (
                   <Route path="/module-5/lesson-3" element={<WriteThree3 />} />
                   <Route path="/module-5/lesson-4" element={<WriteFour4 />} />
                   <Route path="/module-5/lesson-5" element={<WriteFive5 />} />
+                  <Route path="/module-5/lesson-6" element={<ActOutAddition6 />} />
                   <Route path="/module-4/lesson-1" element={<TallOrShort1 />} />
                   <Route path="/module-4/lesson-2" element={<TallerShorter2 />} />
                   <Route path="/module-4/lesson-3" element={<LongerShorter3 />} />
