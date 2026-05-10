@@ -48,7 +48,7 @@ const TopicNumbers3 = () => {
             >
               <ArrowLeft className="h-5 w-5" />
             </Button>
-            <img src={estemLogo} alt="ESTEM Logo" className="w-10 h-10" />
+            <img src={estemLogo} alt="theSTEMLab Logo" className="w-10 h-10" />
             <div>
               <h1 className="text-2xl font-bold text-foreground">Numbers 1-3</h1>
               <p className="text-sm text-muted-foreground">Topic D • 3 Activities</p>
