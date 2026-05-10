@@ -24,11 +24,11 @@ const CountingActivity10 = () => {
   const [completed, setCompleted] = useState(false);
 
   const markLessonComplete = (lessonId: number) => {
-    const saved = localStorage.getItem('ethiostem-completed-lessons');
+    const saved = localStorage.getItem('theSTEMLab-completed-lessons');
     const completedLessons = saved ? JSON.parse(saved) : [];
     if (!completedLessons.includes(lessonId)) {
       completedLessons.push(lessonId);
-      localStorage.setItem('ethiostem-completed-lessons', JSON.stringify(completedLessons));
+      localStorage.setItem('theSTEMLab-completed-lessons', JSON.stringify(completedLessons));
     }
   };
 
