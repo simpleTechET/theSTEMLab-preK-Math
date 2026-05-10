@@ -30,15 +30,15 @@ const PremiumSignup = () => {
 
   const handleSubmit = () => {
   // Save premium status and student name
-  localStorage.setItem('ethiostem-premium', 'true');
-  localStorage.setItem('ethiostem-student-name', studentName);
+  localStorage.setItem('theSTEMLab-premium', 'true');
+  localStorage.setItem('theSTEMLab-student-name', studentName);
   
   // Save the photo as base64
   if (uploadedFile && uploadType === 'photo') {
     const reader = new FileReader();
     reader.onloadend = () => {
       const base64String = reader.result as string;
-      localStorage.setItem('ethiostem-student-photo', base64String);
+      localStorage.setItem('theSTEMLab-student-photo', base64String);
       setStep('complete');
     };
     reader.readAsDataURL(uploadedFile);
@@ -58,7 +58,7 @@ const PremiumSignup = () => {
               </Button>
             </a>
             <div>
-              <h1 className="text-2xl font-bold text-foreground">EthioSTEM Premium</h1>
+              <h1 className="text-2xl font-bold text-foreground">theSTEMLab Premium</h1>
               <p className="text-sm text-muted-foreground">Unlock your child's personalized AI study companion</p>
             </div>
           </div>
@@ -480,7 +480,7 @@ const PremiumSignup = () => {
                 <label className="flex items-start gap-3 cursor-pointer">
                   <input type="checkbox" className="mt-1" required />
                   <span className="text-sm">
-                    I consent to EthioSTEM using this photo/video to create an AI study companion for my child.
+                    I consent to theSTEMLab using this photo/video to create an AI study companion for my child.
                     I understand the data will be encrypted, stored securely, and only used for this purpose.
                     I can request deletion at any time.
                   </span>
