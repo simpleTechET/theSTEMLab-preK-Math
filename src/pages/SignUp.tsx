@@ -68,7 +68,7 @@ const SignUp = () => {
               <div className="w-10"></div>
             </div>
             <CardDescription>
-              Join EthioSTEM Pre-K Math and start your learning journey!
+              Join theSTEMLab Pre-K Math and start your learning journey!
             </CardDescription>
           </CardHeader>
           <CardContent>
