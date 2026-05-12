@@ -1101,7 +1101,7 @@ const module2TopicBLessons = [
 
 // const module2TopicCLessons = [
 //   {
-//     id: 46,
+//     id: 46
 //     title: "Solid Shape Search",
 //     description: "Find and describe solid shapes (3D objects) using informal language.",
 //     icon: "🔎",
