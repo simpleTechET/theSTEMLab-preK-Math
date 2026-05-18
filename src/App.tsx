@@ -302,6 +302,9 @@ const App = () => (
                   <Route path="/module-5/lesson-4" element={<WriteFour4 />} />
                   <Route path="/module-5/lesson-5" element={<WriteFive5 />} />
                   <Route path="/module-5/lesson-6" element={<ActOutAddition6 />} />
+                  <Route path="/module-5/lesson-7" element={<AddObjects7 />} />
+                  <Route path="/module-5/lesson-8" element={<NumberSentences8 />} />
+                  
                   <Route path="/module-4/lesson-1" element={<TallOrShort1 />} />
                   <Route path="/module-4/lesson-2" element={<TallerShorter2 />} />
                   <Route path="/module-4/lesson-3" element={<LongerShorter3 />} />
